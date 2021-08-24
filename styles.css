@@ -27,6 +27,5 @@ h1, h2 {
 }
 
 h2:hover{
-    color:coral
-    transform: rotate(360degrees)
+    color:coral   
 }
