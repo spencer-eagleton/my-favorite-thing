@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Besley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Poppins:wght@300&display=swap');
+
+* {
+    max-width: 500px;
+    margin: auto;
+    
+}
 
 body {
     background-color: bisque;
     color: chocolate;
+    font-family: 'Poppins', sans;
 }
 img {
-    width: 400px
-    max width: 600px
+    width: 400px;
+    max width: 600px;
+    border-style: dotted;
+    border-color: 'dark brown';
+    border-width: 10px
 }
 
 h1, h2 {
@@ -16,4 +28,5 @@ h1, h2 {
 
 h2:hover{
     color:coral
+    transform: rotate(360degrees)
 }
